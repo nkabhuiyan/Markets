@@ -1,0 +1,70 @@
+
+<style>
+/*-[ End Link ]--------------------------------*/
+#move-to-end{
+position:fixed;
+width:35px;
+height:35px;
+top:5px; /*or change it to bottom?*/
+right:2px;
+z-index:9999;
+cursor: pointer;
+opacity: 0.8;
+background:url(down.png);
+-moz-transition: 0.5s ease-in all;
+-webkit-transition: 0.5s ease-in all;
+-ie-transition: 0.5s ease-in all;
+-o-transition: 0.5s ease-in all;
+transition: 0.5s ease-in all;
+
+}
+#move-to-end:hover{
+opacity:0.5;
+}
+.no-csstransitions #move-to-end {display:none;}
+#move-to-end:not(.filling) {opacity:0;visibility:hidden;}
+
+
+
+
+/*-[ Top Link ]--------------------------------*/
+#move-to-top{
+position:fixed;
+width:35px;
+height:35px;
+bottom:5px; /*or change it to bottom?*/
+right:5px;
+z-index:9999;
+cursor: pointer;
+opacity: 0.8;
+background:url("Images/up.png");
+-moz-transition: 0.5s ease-in all;
+-webkit-transition: 0.5s ease-in all;
+-ie-transition: 0.5s ease-in all;
+-o-transition: 0.5s ease-in all;
+transition: 0.5s ease-in all;
+}
+#move-to-top:hover{
+opacity:0.5;
+}
+.no-csstransitions #move-to-top {display:none;}
+#move-to-top:not(.filling) {opacity:0;visibility:hidden;}
+
+/*-[ Footer Link ]--------------------------------*/
+		p#socialicons img{
+		-moz-transition: all 0.8s ease-in-out; /* CSS3 transition of hover properties */
+		-webkit-transition: all 0.8s ease-in-out;
+		-o-transition: all 0.8s ease-in-out;
+		-ms-transition: all 0.8s ease-in-out;
+		transition: all 0.8s ease-in-out;
+		}
+
+		p#socialicons img:hover{
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+		}
+
+</style>
